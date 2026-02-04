@@ -27,6 +27,7 @@ public class AlgorithmTestController {
         // 잘못된 문자열 연결 방식 (String concatenation)
         startTime = System.currentTimeMillis();
         String badResult = "";
+				System.out.println("화이팅");
         for (int i = 0; i < iterations; i++) {
             badResult += "test" + i;  // 매우 비효율적인 방식
         }

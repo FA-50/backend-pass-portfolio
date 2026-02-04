@@ -40,7 +40,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(controllers = BoardController.class)
-@Import({TestConfig.class, TestSecurityConfig.class, TestMeterRegistryConfig.class, TestDatabaseConfig.class})
+@Import({TestConfig.class, TestSecurityConfig.class, TestMeterRegistryConfig.class})
 @AutoConfigureDataJpa
 class BoardControllerTest {
 
